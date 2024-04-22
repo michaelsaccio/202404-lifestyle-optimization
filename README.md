@@ -1,5 +1,6 @@
 # 202404-lifestyle-optimization
 
+This repository houses a Python implementation aimed at assessing the impact of various factors (e.g., stress, sleep quality, socialization, etc.) on the overall 'Day Rating'. Leveraging the Google Sheets API, it accesses a log of daytime data collected throughout the day, while utilizing the Fitbit API to retrieve nighttime data. A clever database updating script is used to aggregate and clean the data, followed by an analysis and machine learning script tasked with determining the weights associated with each variable.
 
 ## 1. Data Gathering
 ### `gather_awake_data.py`
